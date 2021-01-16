@@ -68,6 +68,10 @@ class Team extends React.Component {
   }
 }
 
+function ScoreBoard(props) {
+  return <div className="ScoreBoard">ScoreBoard</div>;
+}
+
 function Game(props) {
   return (
     <div className="Game">
@@ -111,7 +115,7 @@ function App(props) {
   return (
     <div className="App">
       <Game venue="Chase Center" homeTeam={warriors} visitingTeam={nets} />
-      <Game venue="Staple Center" homeTeam={lakers} visitingTeam={bucks} />
+      <Game venue="Staples Center" homeTeam={lakers} visitingTeam={bucks} />
     </div>
   );
 }
